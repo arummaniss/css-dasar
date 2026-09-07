@@ -1,0 +1,17 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: ivory;
+}
+
+#nama {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bio {
+    line-height: 1.6;
+    background-color: plum;
+    text-align: justify;
+    margin: 30px;
+}
