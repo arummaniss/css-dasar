@@ -1,0 +1,12 @@
+.galery {
+    display: grid;
+    border: 5px solid rgb(153, 25, 25);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 15px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.galery div {
+    border: 2px solid plum;
+}
