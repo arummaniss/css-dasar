@@ -1,0 +1,70 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 20px 24px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.logo {
+    text-decoration: solid;
+    font-style: bold;
+    text-align: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: rgb(29, 152, 235);
+}
+
+.btn-primary {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(14, 84, 189);
+    padding: 10px;
+    border: 5px solid rgb(29, 152, 235);
+    border-radius: 10px;
+}
+
+.hero-img {
+    border: 5px solid rgb(29, 152, 235);
+    border-radius: 10px;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(220px, 1fr)); 
+}
+
+.kartu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.kartu img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
