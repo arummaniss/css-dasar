@@ -11,11 +11,10 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap: 30px;
     padding: 20px 24px;
     box-sizing: border-box;
     background-color: #ffefb8;
-    grid-template-columns: repeat(5, 1fr);
+   
 }
 
 .logo {
@@ -118,8 +117,8 @@ body {
     gap: 30px;
     padding: 20px 24px;
     box-sizing: border-box;
-    background-color:  #ffefb8;
-    grid-template-columns: repeat(5, 1fr)
+    background-color:  hsl(46, 72%, 76%);
+    flex: wrap;
 }
 
 .sosial {
